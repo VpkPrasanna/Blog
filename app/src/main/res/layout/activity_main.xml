@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.prasanna.blog.MainActivity">
+
+    <EditText
+        style="@style/Aunthetication"
+         android:id="@+id/Username"
+         android:hint="@string/et_username_hint"/>
+
+    <EditText
+        style="@style/Aunthetication"
+        android:id="@+id/Password"
+        android:inputType="textPassword"
+        android:hint="@string/et_password_hint"/>
+    <Button
+        android:id="@+id/SignIn"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:text="@string/SignIn"/>
+    <Button
+        android:id="@+id/Register"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:text="@string/Register"/>
+
+</LinearLayout>
